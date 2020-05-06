@@ -5,6 +5,15 @@ GITHUB
 2. git init----> make your folder with git repository 
 3. ls
 4. git status
-5. git add.
+5. git add .
 
 6. git commit -m "Version 1"
+
+# suppose 5 developers work for a project. How would I understand that which developer is changed the project!
+
+for that we have a command:
+7. git log 
+
+8. if you to put the same name globally 
+command:- (i) git config --global user.name "Vivek"
+         (ii) git config --global user.email "viv6267@gmail.com"
