@@ -17,3 +17,19 @@ for that we have a command:
 8. if you to put the same name globally 
 command:- (i) git config --global user.name "Vivek"
          (ii) git config --global user.email "viv6267@gmail.com"
+
+Once repo is created
+9. git remote add origin git@github.com:viv6267/DS-Repo.git
+
+10. git push -u origin master
+
+11 how to create new ssh key:- setting-> create ssh
+ssh-keygen -t rsa -b 4096 -C "viv6267@gmail.com"
+
+12. eval $(ssh-agent -s)
+13. ssh-add ~/.ssh/id_rsa--> add your identity 
+
+14. Add the ssh key to your account 
+command:- clip < ~/.ssh/id_rsa.pub
+
+and copy the key and paste in new ssh key part
