@@ -1,0 +1,10 @@
+GITHUB 
+
+1. git status 
+
+2. git init----> make your folder with git repository 
+3. ls
+4. git status
+5. git add.
+
+6. git commit -m "Version 1"
